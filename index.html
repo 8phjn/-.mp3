@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyTube - เว็บฟังเพลง YouTube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">MyTube</div>
+  </header>
+
+  <main class="container">
+    <section class="player-area">
+      <div class="player-card">
+        <div id="videoTitle" class="video-title">เลือกคลิปจากข้างๆ เพื่อเล่น</div>
+        <div class="video-wrapper" id="videoWrapper">
+          <div class="placeholder">ยังไม่มีคลิปกำลังเล่น</div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <h3>รายการเพลง</h3>
+      <ul id="videoList" class="video-list"></ul>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
